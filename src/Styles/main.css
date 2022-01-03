@@ -1,0 +1,136 @@
+body {
+  background: var(--background-color);
+  font-family: "Space Mono", monospace;
+  font-size: 13px;
+  font-weight: var(--font-weight);
+  line-height: 25px;
+  color: var(--text-color)
+}
+
+:root {
+  --blue: #141C2F;
+  --lightblue:#1F2A48;
+  --white: #F5F8FF;
+  --whitev2:#FEFEFE;
+}
+
+body.light {
+  --background-color: var(--white);
+  --background-colorV2: var(--whitev2);
+  --text-color: var(--blue);
+  --font-weight: 400;
+}
+
+body.dark {
+  --background-color: var(--blue);
+  --background-colorV2: var(--lightblue);
+  --text-color: var(--white);
+  --font-weight: 500;
+}
+
+
+
+.search-bar {
+  background: var(--background-colorV2);
+  border-radius: 15px;
+  padding: 0.6em 0.6em 0.6em 1.2em;
+  margin: 20px 0px;
+}
+.search-bar form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-bar form img {
+  margin-left: 10px;
+}
+.search-bar form input {
+  flex: 1;
+  margin: 0 0.6em;
+  color: var(--text-color);
+  background: transparent;
+  border: none;
+  padding: 0.8em;
+  outline: none;
+}
+.search-bar form .btn {
+  font-size: 0.9em;
+  line-height: 1.6em;
+  font-weight: 700;
+  padding: 0.9em 1.2em;
+  border: none;
+  background: #0079FF;
+  color: #222731;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+p {
+  margin: 0;
+}
+
+.profile-card {
+  display: grid;
+  grid-template-columns: 70px 1fr;
+  background: var(--background-colorV2);
+  border-radius: 15px;
+  padding: 32px 24px;
+  gap: 34px 24px;
+}
+.profile-card .infos {
+  grid-column: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.profile-card .infos .username a {
+  color: #0079ff;
+  text-decoration: none;
+}
+.profile-card .avatar {
+  grid-column: 1;
+  grid-row: 1;
+  overflow: hidden;
+}
+.profile-card .avatar img {
+  display: block;
+  padding: 20px 0;
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+.profile-card .bio {
+  grid-column: 1/span 2;
+}
+.profile-card .stats {
+  grid-column: 1/span 2;
+  padding: 16px;
+  display: flex;
+  background: var(--background-color);
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+}
+.profile-card .contacts {
+  grid-column: 1/span 2;
+  color: var(--text-color);
+  padding: 20px 0;
+}
+.profile-card .contact {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.profile-card .contact p {
+  margin-left: 15px;
+}
+.profile-card .contact .icon {
+  width: 20px;
+  text-align: center;
+  color: #0079FF;
+}
+
+
+/*# sourceMappingURL=main.css.map */
+

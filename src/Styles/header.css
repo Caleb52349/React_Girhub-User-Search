@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 36px;
+}
+.header .Theme-Switcher {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+.header .Theme-Switcher img {
+  cursor: pointer;
+  margin-left: 16px;
+}/*# sourceMappingURL=header.css.map */

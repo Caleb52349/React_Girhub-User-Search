@@ -1,0 +1,19 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 36px;
+    
+    .Theme-Switcher{ 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+        img{
+            cursor: pointer;
+            margin-left: 16px;
+            
+        }
+
+       
+    }
+}

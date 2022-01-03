@@ -1,0 +1,18 @@
+$main-text-color-light: #222731;
+$main-text-color-dark: #fff;
+$bg-dark:#141d2f;
+$bg-white:#f6f8ff;
+$bg-component-light:#fefefe;
+$bg-component-dark:#1e2a47;
+
+@mixin button {
+    font-size: 0.9em;
+    line-height: 1.6em;
+    font-weight: 700;
+    padding: .9em 1.2em;
+    border: none;
+    background: #0079FF;
+    color: $main-text-color-light;
+    border-radius: 10px;
+    cursor: pointer;  
+}
